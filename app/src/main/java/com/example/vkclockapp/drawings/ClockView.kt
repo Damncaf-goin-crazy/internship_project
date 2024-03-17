@@ -244,14 +244,6 @@ class ClockView : View, ClockTimer.OnClockTimerListener {
         }
     }
 
-//    override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
-//        super.onMeasure(widthMeasureSpec, heightMeasureSpec)
-//        mFinalWidth = measuredWidth / 2
-//        mFinalHeight = measuredWidth / 2
-//        mRadius = mFinalWidth / 2
-//        setMeasuredDimension(mFinalWidth, mFinalHeight)
-//    }
-
     override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec)
 

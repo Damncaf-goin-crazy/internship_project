@@ -9,7 +9,7 @@ import java.util.*
 class ClockTimer(private var mOnClockTimerListener: OnClockTimerListener?) {
 
     companion object {
-        internal const val TIMER = 950L
+        internal const val TIMER = 1000L
 
         internal const val MAXIMUM_SECONDS = 60
 
